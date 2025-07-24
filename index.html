@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEELDX - Smart Infrastructure</title>
+
+    <!-- Favicons -->
+    <link href="assets/images/feeldx-favicon.png" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="home-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <svg width="164" height="42" viewBox="0 0 164 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.168 42H47.3525V37.0649H31.1528V25.9612H47.3525V21.0261H31.1528V9.92186H47.3525V4.98732H26.168V42Z"
+                        fill="#ffffff"></path>
+                    <path d="M0 42H4.9848V25.9612H21.1834V21.0261H4.9848V9.92186H21.1834V4.98732H0V42Z" fill="#ffffff">
+                    </path>
+                    <path
+                        d="M149.474 22.333L161.831 4.99901H155.729L146.423 18.0535L137.117 4.99901H131.015L143.372 22.333L129.361 41.9883H135.462L146.423 26.6124L157.384 41.9883H163.486L149.474 22.333Z"
+                        fill="#ffffff"></path>
+                    <path
+                        d="M71.5475 21.0261H62.3047V25.9612H73.6128L83.107 16.5605V16.5577L83.6728 15.9982V-1.52588e-05H78.688V13.9574L71.5475 21.0261Z"
+                        fill="#ffffff"></path>
+                    <path
+                        d="M83.6728 25.0972L78.688 30.0323V30.039L71.5913 37.0649H57.4125V9.92186H73.6129V4.98732H52.4277V42H73.6129V41.9572L73.6555 42L78.6936 37.0127H99.872V32.0776H83.6728V25.0972Z"
+                        fill="#ffffff"></path>
+                    <path
+                        d="M116.285 4.99899V4.98732H103.826V32.0776H108.812V9.92241H116.285V9.93409C119.838 10.0532 123.204 11.534 125.674 14.0639C128.145 16.5938 129.525 19.9749 129.525 23.4937C129.525 27.0124 128.145 30.3935 125.674 32.9234C123.204 35.4533 119.838 36.9341 116.285 37.0532V37.0649H108.81V37.0104H103.826V41.9978H116.285V41.9861C121.146 41.8465 125.76 39.8368 129.149 36.3836C132.537 32.9304 134.432 28.3057 134.432 23.4914C134.432 18.6772 132.537 14.0525 129.149 10.5993C125.76 7.1461 121.146 5.13635 116.285 4.99676V4.99899Z"
+                        fill="#ffffff"></path>
+                </svg>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#about">About <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Capability Statement</a></li>
+                            <li><a href="#">AEC</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Project Control</a></li>
+                            <li><a href="#">Multimedia Visualisation</a></li>
+                            <li><a href="#">Project Planning & Control</a></li>
+                            <li><a href="#">Technology Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="tel:1800-333-539"><i class="bi bi-telephone-fill"></i> 1800-333-539</a>
+
+        </div>
+    </header>
+
+
+    <section id="hero" class="hero section">
+        <div class="section-overlay"></div>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12 mt-auto mb-5 text-center" data-aos="zoom-out">
+                    <h1>Smarter Digital Solutions For Complex Projects</h1>
+                    <p>Partnering with you to build innovative, efficient, and scalable engineering solutions.</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="#about" class="btn-learn-more">Learn more</a>
+                        <a href="https://player.vimeo.com/video/1049585198"
+                            class="glightbox btn-watch-video d-flex align-items-center"><i
+                                class="bi bi-play-circle"></i><span>Watch
+                                Video</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-wrap">
+            <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                <source src="assets/videos/pexels-aerial.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about section">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>About FeelDX</h2>
+        </div>
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                    <p class="lead">
+                        FeelDX is a multidisciplinary design and delivery partner specializing in high-performance
+                        digital solutions for
+                        infrastructure and construction.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-accent"></i> End-to-end support from concept to
+                            construction</li>
+                        <li><i class="bi bi-check-circle-fill text-accent"></i> Integrated capabilities in Architecture,
+                            Engineering, and
+                            Digital</li>
+                        <li><i class="bi bi-check-circle-fill text-accent"></i> Agile collaboration with tier-one
+                            builders and government
+                            clients</li>
+                        <li><i class="bi bi-check-circle-fill text-accent"></i> Trusted partner for critical,
+                            fast-moving projects</li>
+                    </ul>
+                    <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/images/pexels-thirdman-8470031.jpg" class="img-fluid" alt="About FeelDX">
+                    <!-- <div class="ratio ratio-16x9">
+                        <iframe src="https://player.vimeo.com/video/1049585198" frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div> -->
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="services" class="services section light-background">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Services</h2>
+            <p>
+                Integrated design, engineering, and digital solutions tailored for complex infrastructure and
+                construction projects.
+            </p>
+        </div>
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-bar-chart-line icon"></i></div>
+                        <h4><a href="" class="stretched-link">Project Control </a></h4>
+                        <p>Delivering measurable project outcomes through data-driven oversight.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-calendar-check icon"></i></div>
+                        <h4><a href="" class="stretched-link">Planning & Delivery
+                            </a></h4>
+                        <p>From design to execution — structured project and program delivery.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-cpu icon"></i></div>
+                        <h4><a href="" class="stretched-link">Technology Solutions
+                            </a></h4>
+                        <p>Custom platforms, BIM, and automation for enhanced collaboration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                        <h4><a href="" class="stretched-link">Multimedia Visualisation
+                            </a></h4>
+                        <p>CGI, 3D renders, and animations for stakeholder engagement.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="our-works" class="our-works section">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Explore Our Work</h2>
+            <p>Proven experience delivering strategic outcomes for complex, high-impact projects.</p>
+        </div>
+
+        <div class="container">
+
+            <div class="row gy-5">
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="100">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/LE35IRbaCsKIeZuBYReCQAjOS6lJLOycXi911wNl.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>Bayswater Station</h3>
+                            <p>Tender programme, 3D and 4D Construction methodology, Completion shots.</p>
+
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="200">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/OpcGi8jyWMFUhorWixL1hc41lRwfUNNDEewjlMQv.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>Sunbury Multideck Carpark</h3>
+                            <p>3D & 4D Construction methodology, Completion shots, Flythrough</p>
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="300">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/W648hRGfAR9zt15aG4gj9BY7Br5FrGM8qNIQN3Yi.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>MRPA Greensborough</h3>
+                            <p>3D & 4D Construction methodology, Completion shots, Flythrough</p>
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="100">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/LE35IRbaCsKIeZuBYReCQAjOS6lJLOycXi911wNl.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>Drouin Primary School</h3>
+                            <p>Tender programme, 3D and 4D Construction methodology, Completion shots.</p>
+
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="200">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/6Pi6l27TlJsYCQrxIjsD892iPdsbMArbllqWpcgf.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>Epworth Hospital ICU Department</h3>
+                            <p>Tender programme, 3D and 4D Construction methodology, Completion shots.</p>
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 position-relative" data-aos="fade-up" data-aos-delay="300">
+                    <div class="our-works-item">
+                        <div class="our-works-image">
+                            <img src="https://www.feeldx.com/uploads/projects/iMh5L6hixtlEu30BTbbwkkQo0K8R5GewqYFJjLJ8.jpg"
+                                class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="our-works-content">
+                            <h3>Civitas</h3>
+                            <p>Tender programme, 3D and 4D Construction methodology, Completion shots.</p>
+                            <a href="#" class="details-link stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#" class="view-all"><span>View All</span></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="testimonials" class="testimonials section light-background">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>What They Say About Us</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 3000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>When we received our deliverables from FeelDX, we saw that something felt
+                                    different. We knew there was an element
+                                    missing but weren’t sure how to make it happen and under strict time pressure they
+                                    worked tirelessly for us and added
+                                    the “wow” factor our projects needed.Thank you team, just had a look – everything
+                                    looks really well put together! Thanks
+                                    again for being so responsive and making the process easy for us.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+
+                            <h3>Preconstruction Manager National Brand &amp; Submissions Coordinator</h3>
+                            <h4>Tier 2 - National NSW &amp; VIC</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>They were friendly, professional, ethical people who understood exactly what we
+                                    required in order to deliver a very
+                                    complex project.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                            <h3>Director</h3>
+                            <h4>Tier 2 Construction – National</h4>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bi bi-quote quote-icon-left"></i>
+                                <span>Thank you team, just had a look – everything looks really well put together!
+                                    Thanks again for being so responsive and
+                                    making the process easy for us. You brought the story to life and helped portray the
+                                    end vision to the client. Well
+                                    done.</span>
+                                <i class="bi bi-quote quote-icon-right"></i>
+                            </p>
+                            <h3>National Brand &amp; Submissions Coordinator Tender Manager</h3>
+                            <h4>TIER 2 NSW</h4>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="clients" class="clients section ">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Clients we've worked with</h2>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                          "delay": 5000
+                        },
+                        "slidesPerView": "auto"
+                        
+                      }
+                    </script>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="row justify-content-center text-center">
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/7wm65lZyMYlbvcXAbeMAjWES9JzKGPrHwnPiy4w5.jpg"
+                                    alt="CICG"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/rbhWqGjCcQiLDsiShnUIsLm9pJiJpLKU852pW0xm.jpg"
+                                    alt="City of Newcastle"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/gud3PjPfqpCJiRKLptHAMq8QtHBMZ9mPU1mcPMi9.webp"
+                                    alt="City of Greater Dandenong"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/LWack5DnOuJhlwYdICGwMJR7lH2ypoxu7NgV4sr6.jpg"
+                                    alt="Built"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/UEQvBtgnVE6ENaJePmTcVoR7Vd8fli02Nlb3vmUE.png"
+                                    alt="Zauner"></div>
+
+
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/c0uqAwlsHiMJbbPrgOm7jow1hUIN2BZCpjffoxaS.png"
+                                    alt="Hutchinson"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/YHK41BDW30sxiTsNtShwW3358JKIiyxiWhVq75F0.png"
+                                    alt="Hansen Yuncken"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/sQYVUFMjZ2ZykPajQMqjlSy62VfuNuTTohVolv4r.jpg"
+                                    alt="LLOYD"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/zIFnl1mnllU1xRUq5d4oQIZQYGgj6SDvBvfn7F2j.jpg"
+                                    alt="KANE"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/1e1GYy3C8hudBdiPWhK0skVXeScziALnMlgcyCuQ.png"
+                                    alt="Renascent"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="row justify-content-center text-center">
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/2SBhgn5SdBnir3o7ocAoSF7OFkd5njkkvD4m4azQ.png"
+                                    alt="DEVCO"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/tUE4mIKNmnjbguXH0Te1gY5S1DUDVmzrl2HUuuts.png"
+                                    alt="FLEETWOOD"></div>
+
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/YaZ0BHj0yCs3NjRvO93RsKQpwHhtlX5lAMeR1eyb.png"
+                                    alt="Maben"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/2CNfOGlQnlzVxDsqyHCllhnaWL1RfDaOF7B8JzqQ.png"
+                                    alt="FKG Group"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/0gpR1uuITzdkKRtHOGuEi9jTJQkXIl8NWY6Nvwj5.png"
+                                    alt="ADCO"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/8VY1oI3kVTEdIcy28QIHBXYEalEtwEVOSHVBxDs6.png"
+                                    alt="barpa"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/lQ1Jiraiv3NCoIgynShklueXDEYjptMXjzEJV65B.png"
+                                    alt="Becon"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/91zBUdjlBOOrCEwZkfnPKYY3A1254lwxfjbpDGLe.png"
+                                    alt="Broad Construction"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/0oShJuxxZIZDrBTgeJ1lAeVyLXWHrKaEhl0xcKH0.png"
+                                    alt="Bryant"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/w95l7k9lsTAKEL1HeIR96vbbZwTiHdjNNrSJM4Xa.jpg"
+                                    alt="Built Environs"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="row justify-content-center text-center">
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/TJPXbkP4Ebx7LZtMHsnyV8XmovejxLC8CjRunCLe.jpg"
+                                    alt="Camillo"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/FVomZ1Sl6V4L5S3ir48yQZje2vYCnehxVxXl14aX.png"
+                                    alt="Capabuild"></div>
+
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/2SBhgn5SdBnir3o7ocAoSF7OFkd5njkkvD4m4azQ.png"
+                                    alt="DEVCO"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/tUE4mIKNmnjbguXH0Te1gY5S1DUDVmzrl2HUuuts.png"
+                                    alt="FLEETWOOD"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/TPOgBzoJI6O1PzM1CiSW6EPHkUdtIunS3n0f4Yfn.png"
+                                    alt="Gainsville"></div>
+
+                            <div class="col logo-col"><img
+                                    src="https://www.feeldx.com/uploads/clients/1B2G1LwKwqw1PwAdbIcaTvVpHnPBipB5mp12mYE6.png"
+                                    alt="Grindley"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="call-to-action" class="call-to-action section">
+
+        <img src="assets/images/pexels-lucianphotography-3566187.jpg" alt="">
+
+        <div class="container">
+
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-xl-9 text-center text-xl-start">
+                    <h3>Let’s Bring Your Vision to Life</h3>
+                    <p>Book a free consultation and discover how our tailored services can help you win tenders and
+                        deliver projects on time
+                        and within budget.</p>
+                </div>
+                <div class="col-xl-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="#">Contact Us</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="latest-news" class="latest-news section">
+
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Latest News</h2>
+            <p>Explore the latest happenings, project wins, and innovations driving our industry forward.</p>
+        </div>
+
+        <div class="container">
+
+            <div class="row gy-5">
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="https://d2rxqglyhdohqf.cloudfront.net/ec/68dc9f0582218d853294a5de91f70935/151329.jpg"
+                                class="img-fluid" alt="">
+                            <span class="post-date">December 12</span>
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                            <h3 class="post-title">BIM and 4D Modelling Revolutionise Australian Defence Construction
+                            </h3>
+
+
+                            <a href="#" class="readmore stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="https://d2rxqglyhdohqf.cloudfront.net/ec/ecf970b75271455df5df3f244f53f361/151333.jpg"
+                                class="img-fluid" alt="">
+                            <span class="post-date">July 17</span>
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                            <h3 class="post-title">Missile Factories and Drone Facilities: Australia's High-Tech Defence
+                                Build-Up</h3>
+
+
+
+                            <a href="#" class="readmore stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="300">
+                    <div class="post-item position-relative h-100">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="https://d2rxqglyhdohqf.cloudfront.net/ec/d9608ebe5e80f1ab7931b28d8c31aa5c/151706.jpg"
+                                class="img-fluid" alt="">
+                            <span class="post-date">September 05</span>
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                            <h3 class="post-title">Remote Bases and Outposts: Strategic Planning and Resilient Design
+                                for Defence Infrastructure</h3>
+
+
+
+                            <a href="#" class="readmore stretched-link"><span>Read More</span><i
+                                    class="bi bi-arrow-right"></i></a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#" class="view-all"><span>View All</span></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section id="newsletter" class="newsletter section">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <h4>Stay Ahead with Industry Insights</h4>
+                        <p>Subscribe to receive the latest news, project highlights, and innovation trends shaping the
+                            future of construction and
+                            digital engineering.</p>
+                        <form action="./" method="post">
+                            <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                    value="Subscribe">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-6 col-md-12 footer-links">
+                    <a href=""><img src="assets/images/feeldx-logo-tagline.svg" class="footer-logo"> </a>
+                    <h4>Follow Us</h4>
+                    <p>Stay connected with our latest updates and insights.</p>
+                    <div class="social-links d-flex">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">News</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Offices</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Vic Head Office</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">NSW</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">QLD</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">WA</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Mauritius</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">USA, California</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Vietnam, Ho Chi Minh</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">FeelDX</strong> <span>All Rights Reserved</span>
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
